@@ -8,7 +8,7 @@ on:
 # jobs in the workflow
 jobs:
   code-checkout:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     # steps in the workflow
     steps:
       - name: Clone the code
